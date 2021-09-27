@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="style1.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>AirQuality Indicator</title>
+	</head>
+	<body>
+        <div class="rectangle"></div>
+        <div class="nav-container" tabindex="0">
+            <div class="nav-toggle"></div>
+            <nav class="nav-items">
+              <a class="nav-item" href="./index.html">AirQuality By City</a>
+              <a class="nav-item" href="./By zip.html">AirQuality By Zip Code</a>
+              <a class="nav-item" href="./Lat Lon.html">AirQuality By Lat Lon</a>
+            </nav>
+        </div>
+        <div id="body">
+            <div id="search">
+                <input placeholder="Lat" id="search_box">
+                <input placeholder="Lon" id="search_box1">
+                <button id="icon">
+                    <div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                </button>
+            </div>
+            <br>
+            <div id="display">
+                <div id="category">
+                    <div id="destination"></div>
+                    <div id="AQI"></div>
+                    <div id="condition"></div>
+                    <div id="detail">
+                        <div>
+                            <h4>PM2.5</h4>
+                            <h4>PM10</h4>
+                            <h4>Ozone</h4>
+                            <h4>Nitrogen Dioxide</h4>
+                            <h4>Sulphur Dioxide2</h4>
+                            <h4>Carbon Monoxide</h4>
+                        </div>
+                        <div id="statistics">
+                            <h4 id="PM25"></h4>
+                            <h4 id="PM10"></h4>
+                            <h4 id="O3"></h4>
+                            <h4 id="NO2"></h4>
+                            <h4 id="SO2"></h4>
+                            <h4 id="CO"></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script src="by lat lon.js"></script>  
+	</body>
+</html>
