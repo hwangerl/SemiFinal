@@ -80,7 +80,6 @@ body{
     display:flex;
     }
 #body{
-    position:fixed;
     top:15px;
     height:570px;
     display:flex;
