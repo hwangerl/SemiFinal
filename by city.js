@@ -49,7 +49,7 @@ button.addEventListener('click',function(){
                 document.getElementById('CO').textContent=data['data'][0]['co'].toFixed(1);
             })
             .catch(err => {
-                document.getElementById('destination').textContent='Invalid ZIP Code'
+                document.getElementById('destination').textContent='Invalid City'
                 document.getElementById('AQI').textContent='';
                 document.getElementById('condition').textContent='';
                 document.getElementById('PM25').textContent='';
