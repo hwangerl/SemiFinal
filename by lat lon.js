@@ -50,7 +50,7 @@ button.addEventListener('click',function(){
                 document.getElementById('CO').textContent=data['data'][0]['co'].toFixed(1);
             })
             .catch(err => {
-                document.getElementById('destination').textContent='Invalid LAT or LON'
+                document.getElementById('destination').textContent='Invalid Co-Ordinates'
                 document.getElementById('AQI').textContent='';
                 document.getElementById('condition').textContent='';
                 document.getElementById('PM25').textContent='';
